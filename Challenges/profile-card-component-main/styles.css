@@ -1,0 +1,90 @@
+body{
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  margin:0;
+}
+hr{
+  border-color:hsl(227, 10%, 46%);
+  border-style: none;
+  border-top-style: solid;
+}
+span {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+h4{
+  font-family: "Kumbh Sans", sans-serif;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top:1px;
+  padding:10px;
+}
+
+p.city{
+  text-align: center;
+  margin:0 auto;
+  position:relative;
+  bottom:3%;
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.top{
+  position:fixed;
+  right:50%;
+  bottom:50%;
+
+}
+
+.bottom{
+  position:fixed;
+  left:50%;
+  top:50%;
+}
+
+.card{
+
+  height: 65vh;
+  width: 350px;
+  border-radius: 12px;
+  margin:120px auto;
+  /* left:0;
+  top:0;
+  bottom:0;
+  right:0; */
+  overflow: hidden;
+  background-color: white;
+  align-items: center;
+
+}
+
+.card-image{
+  height: 33%;
+  width: 350px;
+  align-items: center;
+}
+
+.victor{
+  position: relative;
+  bottom:15%;
+  left: 37%;
+  border-radius: 50px;
+  border: solid white 5px;
+}
+
+.name{
+  color:hsl(229, 23%, 23%);
+  text-align: center;
+  display:inline;
+  font-size: 18px;
+  font-weight: 700;
+  position:relative;
+  bottom:5%;
+  margin:0 auto;
+}
+
+.dash{
+  text-align: center;
+}
